@@ -1,0 +1,9 @@
+mkdir LibrarySystem
+cd .\LibrarySystem\
+dotnet new sln -n LibrarySystem
+code .
+dotnet new classlib -o src/LibrarySystem.Domain
+dotnet new console -o src/LibrarySystem.ConsoleApp
+dotnet sln add .\src\LibrarySystem.ConsoleApp\LibrarySystem.ConsoleApp.csproj
+dotnet sln add .\src\LibrarySystem.Domain\LibrarySystem.Domain.csproj
+dotnet add .\src\LibrarySystem.ConsoleApp\LibrarySystem.ConsoleApp.csproj reference .\src\LibrarySystem.Domain\LibrarySystem.Domain.csproj
