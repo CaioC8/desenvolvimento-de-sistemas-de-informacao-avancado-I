@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+fi6qupqzHs=",
+  "dgSpecHash": "5qBI5yLywLQ=",
   "success": true,
   "projectFilePath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/aula2_26-08-2026/LibrarySystem/src/LibrarySystem.Infrastructure/LibrarySystem.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.11/microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.11/microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

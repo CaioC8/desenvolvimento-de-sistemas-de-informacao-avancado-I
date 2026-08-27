@@ -4,7 +4,7 @@ using LibrarySystem.Domain.Interfaces;
 
 namespace LibrarySystem.Infrastructure.Repositories;
 
-public class LivroRepository : ILivroRepository
+public class LivroRepositoryEmMemoria : ILivroRepository
 {
     private readonly List<Livro> _livros = new();
 
