@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "63we80aj2pc=",
+  "success": true,
+  "projectFilePath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/LibrarySystemB/src/LibrarySystem.Application/LibrarySystem.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.11/microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.11/microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
