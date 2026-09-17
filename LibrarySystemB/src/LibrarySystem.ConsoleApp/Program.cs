@@ -1,5 +1,7 @@
 ﻿using LibrarySystem.Application;
 using LibrarySystem.Application.Services;
+using LibrarySystem.Domain.Entites;
+using LibrarySystem.Domain.Entities;
 using LibrarySystem.Domain.Enums;
 using LibrarySystem.Infrastructure;
 using LibrarySystem.Infrastructure.Data;
@@ -20,17 +22,26 @@ var serviceProvider = serviceCollection.BuildServiceProvider();
 
 var appService = serviceProvider.GetRequiredService<LivroAppService>();
 
-Console.WriteLine("=== SISTEMA DE REESTRUTURADO EM CAMADAS ===");
+Console.WriteLine("=== SISTEMA COM EF-CORE ===");
 
-appService.CadastrarNovoLivro("Dom Quixote", Guid.NewGuid(), "alds", 
-CategoriaLivro.Historia, 50.00m);
-appService.CadastrarNovoLivro("SW", Guid.NewGuid(), "alqw9ts", 
-CategoriaLivro.Ficcao, 20.00m);
-appService.CadastrarNovoLivro("Clean Code", Guid.NewGuid(), "sgfads", 
-CategoriaLivro.Tecnologia, 15.00m);
-
-foreach(var livro in appService.ListarAcervo())
+using(var scope = serviceProvider.CreateScope())
 {
-    Console.WriteLine(
-        $"[OK] Cadastrado: {livro.Titulo} - R$ {livro.Preco}");
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    context.Database.Migrate();
+
+    var autor = new Autor("Fulano", "Brasileiro");
+    var livro = new Livro("Clean Code", autor.Id, "isbn", CategoriaLivro.Tecnologia, 130.00m);
+
+    context.Autores.Add(autor);
+    context.Livros.Add(livro);
+    context.SaveChanges();
+
+    Console.WriteLine("[SUCESSO] Dados salvos no banco");
+
+    var livrosDoBanco = context.Livros.Include(l => l.Autor).ToList();
+
+    foreach(var item in livrosDoBanco)
+    {
+        Console.WriteLine($"Livro: {item.Titulo} | Autor: {item.Autor.Nome}");
+    }
 }

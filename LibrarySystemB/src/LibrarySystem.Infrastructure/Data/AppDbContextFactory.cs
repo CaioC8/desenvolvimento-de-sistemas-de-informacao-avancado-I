@@ -10,7 +10,7 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
         var optionsBuilder = 
             new DbContextOptionsBuilder<AppDbContext>();
 
-        optionsBuilder.UseSqlServer("Ser");
+        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=librarydb;Username=postgres;Password=Aluno123");
 
         return new AppDbContext(optionsBuilder.Options);
     }
