@@ -13,10 +13,10 @@ public class LivroAppService
         _repository = repository;
     }
 
-    public void CadastrarNovoLivro(string titulo, string autor,
+    public void CadastrarNovoLivro(string titulo, Guid autorId,
      string isbn, CategoriaLivro categoria, decimal preco)
     {
-        var livro = new Livro(titulo, autor, isbn, categoria, preco);
+        var livro = new Livro(titulo, autorId, isbn, categoria, preco);
         _repository.Adicionar(livro);
     }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M0yJS2Tx2v4=",
+  "dgSpecHash": "ZGx81WYl7PM=",
   "success": true,
   "projectFilePath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/LibrarySystemB/src/LibrarySystem.Infrastructure/LibrarySystem.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,8 @@
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.4/microsoft.extensions.caching.abstractions.10.0.4.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.memory/10.0.4/microsoft.extensions.caching.memory.10.0.4.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.4/microsoft.extensions.configuration.abstractions.10.0.4.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.11/microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.11/microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.12/microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.logging/10.0.4/microsoft.extensions.logging.10.0.4.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.4/microsoft.extensions.logging.abstractions.10.0.4.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.options/10.0.4/microsoft.extensions.options.10.0.4.nupkg.sha512",

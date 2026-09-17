@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "A5BqqN6wB5w=",
-  "success": false,
+  "dgSpecHash": "jR7UuzthLNc=",
+  "success": true,
   "projectFilePath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/LibrarySystemB/src/LibrarySystem.ConsoleApp/LibrarySystem.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -20,7 +20,7 @@
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.12/microsoft.extensions.caching.abstractions.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.memory/10.0.12/microsoft.extensions.caching.memory.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.12/microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.11/microsoft.extensions.dependencyinjection.10.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.12/microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.dependencymodel/10.0.12/microsoft.extensions.dependencymodel.10.0.12.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.logging/10.0.12/microsoft.extensions.logging.10.0.12.nupkg.sha512",
@@ -40,17 +40,5 @@
     "/home/codespace/.nuget/packages/system.composition.runtime/9.0.0/system.composition.runtime.9.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.DependencyInjection from 10.0.12 to 10.0.11. Reference the package directly from the project to select a different version. \n LibrarySystem.ConsoleApp -> Microsoft.EntityFrameworkCore.Design 10.0.12 -> Microsoft.Extensions.Logging 10.0.12 -> Microsoft.Extensions.DependencyInjection (>= 10.0.12) \n LibrarySystem.ConsoleApp -> Microsoft.Extensions.DependencyInjection (>= 10.0.11)",
-      "projectPath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/LibrarySystemB/src/LibrarySystem.ConsoleApp/LibrarySystem.ConsoleApp.csproj",
-      "filePath": "/workspaces/desenvolvimento-de-sistemas-de-informacao-avancado-I/LibrarySystemB/src/LibrarySystem.ConsoleApp/LibrarySystem.ConsoleApp.csproj",
-      "libraryId": "Microsoft.Extensions.DependencyInjection",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
